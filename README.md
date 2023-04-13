@@ -47,8 +47,6 @@ We manually adjusted binning in the remaining variables to improve plot trends. 
 
 For the remaining variables, it was crucial to examine their correlation. To do this, we constructed a correlation plot(refer appendix Figure 2.5.2). When two variables are correlated, changes in one variable corresponds with changes in the other, which can result in redundancy. Redundant variables do not contribute additional information to the analysis, and removing them can simplify the process and improve interpretability. Our approach involved identifying pairs of correlated variables and retaining the variable with the higher Information Value (IV) score while dropping the one with the lower score. This method allowed us to eliminate 14 variables while preserving those with better predictive capabilities (refer appendix Table 2.5.1). 
 
-![image](https://user-images.githubusercontent.com/100692852/231855455-bd84b85a-602e-4a98-813c-44caf7a183d5.png)
-
 ## Modeling
 
 ### 3.1 Logistic Regression
@@ -58,8 +56,8 @@ Logistic regression is a type of regression analysis that is used to model the r
 In our Credit Risk Analytics, the dependent variable was the default status and we had 24 independent variables. We used the WoE (weights of evidence) transformed dataset for the purpose of the logistic regression. We modified several logistic regression parameters according to the needs of our data set. For details on parameter values used, refer to appendix Table 3.1.
 
 After creating the model, we fitted it with the train_woe dataset. In order to verify our model, we predicted the Probability of Default (PD) using the test_woe. Next, we constructed a confusion matrix (Figure 3.1) to understand the performance of our logistic model. We used the predicted classes of default and the actual true classes from default status to construct a confusion matrix. The obtained confusion matrix is represented below:
+![image](https://user-images.githubusercontent.com/100692852/231858963-f1393d5d-257b-4543-81b3-9f01e12fb7ae.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231854204-ae5496fd-fc11-44f1-9e5e-5140dff0640d.png)
 
 Explanation for Confusion Matrix:
 
@@ -181,20 +179,22 @@ Oecd. (n.d.). OECD statistics. OECD Statistics. Retrieved April 10, 2023, from h
 ## APPENDIX: Tables and Figures
 
 
-![image](https://user-images.githubusercontent.com/100692852/231855148-86a661d3-0735-4621-8ac8-299d16c326c3.png)
+![image](https://user-images.githubusercontent.com/100692852/231858028-5aa66971-8d75-4079-b391-32dfcf00d79d.png)
 
+![image](https://user-images.githubusercontent.com/100692852/231858193-c5b6be18-7473-4318-a692-9dfb7d73fa27.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231855270-bc1c2590-3742-42fd-834b-849be2bd47f5.png)
+![image](https://user-images.githubusercontent.com/100692852/231858548-bddacea2-dc43-422a-a10b-79f458d990b8.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231855322-f5cc5d70-436b-4cfa-a58c-7e2a6c9e4563.png)
+![image](https://user-images.githubusercontent.com/100692852/231858232-063d80b2-3f71-4a70-8fb6-e17666e4cf8e.png)
 
+![image](https://user-images.githubusercontent.com/100692852/231858279-884dd9fb-2d39-4cac-a46f-d0da02b4a8cb.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231855683-e7f0a9aa-6909-4678-8483-574de423ba73.png)
- 
-![image](https://user-images.githubusercontent.com/100692852/231855721-0f5cbf63-1b06-4ac3-98b0-7bb333e74dda.png)
+![image](https://user-images.githubusercontent.com/100692852/231858316-862e22f5-e4ec-4cbe-ab8f-2d8eeb18512b.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231855738-7e878069-f71a-48c7-9592-fbaeb45fe622.png)
+![image](https://user-images.githubusercontent.com/100692852/231858353-4ede0a66-4bf2-4831-a34f-fbc0cc1b616e.png)
 
-![image](https://user-images.githubusercontent.com/100692852/231855788-fa776136-e7d4-4ccc-8b5f-79bed953e5a2.png)
+![image](https://user-images.githubusercontent.com/100692852/231858371-f9550643-2778-4234-8814-eabf82c65dde.png)
+
+![image](https://user-images.githubusercontent.com/100692852/231858393-7987f7af-5b0c-43ed-a887-3b0d571ef52d.png)
 
 
