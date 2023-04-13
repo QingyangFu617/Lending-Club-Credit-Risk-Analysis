@@ -1,5 +1,5 @@
 ![pic](https://user-images.githubusercontent.com/100692852/231856693-e44577fd-aeaf-4d5d-888c-aa5091b19428.jpg)
-
+* Contribution: Jingcheng Chu, Utkarsh Mehta, Qingyang Fu
 ## Introduction
 Lending Club https://www.lendingclub.com/ is a peer-to-peer (P2P) lender operating in North America, known for its innovative business model of mitigating risk by diversifying investments across multiple loans. In a typical loan scenario, borrowers receive a sum of money, or principal, and are required to repay the lender this principal along with interest in the future.
 
