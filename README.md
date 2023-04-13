@@ -1,5 +1,7 @@
+![pic](https://user-images.githubusercontent.com/100692852/231856693-e44577fd-aeaf-4d5d-888c-aa5091b19428.jpg)
+
 ## Introduction
-Lending Club is a peer-to-peer (P2P) lender operating in North America, known for its innovative business model of mitigating risk by diversifying investments across multiple loans. In a typical loan scenario, borrowers receive a sum of money, or principal, and are required to repay the lender this principal along with interest in the future.
+Lending Club https://www.lendingclub.com/ is a peer-to-peer (P2P) lender operating in North America, known for its innovative business model of mitigating risk by diversifying investments across multiple loans. In a typical loan scenario, borrowers receive a sum of money, or principal, and are required to repay the lender this principal along with interest in the future.
 
 However, lending involves credit risk, which is the potential for a borrower to default on a loan by failing to make the necessary payments. This risk exposes the lender to the loss of principal, interest, and disrupted cash flows. As a result, assessing the credit risk associated with a loan portfolio is crucial, as it allows for the prediction of potential borrower default, enabling the lender to take preventative action and maximize profits.
 In this project, we have developed a fully compliant advanced Internal Ratings-Based (IRB) model for origination scoring using data collected between 2007 and 2018. By leveraging historical credit information on existing borrowers and their interactions with the bank, we have created a Probability of Default model that accurately evaluates the risk associated with each borrower.
